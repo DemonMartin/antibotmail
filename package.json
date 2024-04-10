@@ -28,5 +28,11 @@
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "rollup": "^4.14.1"
+  },
+  "exports": {
+    ".": {
+      "import": "./src/index.mjs",
+      "require": "./dist/index.js"
+    }
   }
 }
