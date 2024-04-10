@@ -1,7 +1,7 @@
 import AntiBotMail from "./src/index.mjs";
 
 (async() => {
-    const API_KEY = '1e75b8bf-09e6-4e98-b105-c2983d2a28a3'
+    const API_KEY = ''
     const ABM = new AntiBotMail(API_KEY)
 
     // Get the balance
